@@ -24,22 +24,22 @@
 
 ## Landing Page
 
-<img src="https://github.com/bhupatjangid/my_secrets/blob/main/landing_page.JPG" width="800"/>
+<img src="https://github.com/bhupatjangid/section_1/blob/main/public/css/landing_page.JPG" width="800"/>
 
 
 ## Register Page
 
-<img src="https://github.com/bhupatjangid/my_secrets/blob/main/register_page.JPG" width="800"/>
+<img src="https://github.com/bhupatjangid/section_1/blob/main/public/css/rigister_page.JPG" width="800"/>
 
 
 ## Login Page
 
-<img src="https://github.com/bhupatjangid/my_secrets/blob/main/login_page.JPG" width="800"/>
+<img src="https://github.com/bhupatjangid/section_1/blob/main/public/css/login_page.JPG" width="800"/>
 
 
-## Secrets Page
+## Succsess Page
 
-<img src="https://github.com/bhupatjangid/my_secrets/blob/main/Secret_page.JPG" width="800"/>
+<img src="https://github.com/bhupatjangid/section_1/blob/main/public/css/success.JPG" width="800"/>
 
 
 
