@@ -1,0 +1,30 @@
+<%- include('header') %>
+  <h1 style="text-align: center;">Login</h1>
+    <form class="form-signin border"  action="/login" method="POST" >
+      <img class="mb-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCCmV4hdR0WwQdDksdPtHdYPSGo27bnOl0dA&usqp=CAU" alt="" width="72" height="57">
+      <h1 >Evernote</h1>
+      <p>Remember everything important</p>
+      <input type="email" name="username" class="form-control" id="floatingInput" placeholder="sachin@example.com" required>  
+      <%if(error.username){ %>
+        <p style="color: red;"><%= error.username.msg %></p>
+      <% } %>
+      <input type="password" name="password" class="form-control" id="floatingPassword" placeholder="Password" required>
+      <% if(error.password){ %>
+        <p style="color: red;"><%= error.password.msg %></p>
+      <% } %>
+      <button class="form-control" type="submit" style="background-color: #054a91; color: white;">Sign in</button>
+      
+      
+      <div class="bottomtext">
+        <p><input type="checkbox" value="remember-me"> Remember me for 30 days</p>
+        <a href="">Forgot password?</a>
+        
+      </div>
+      <div class="bottomtext">
+        <p>Don't have an account?</p>
+        <a href="">Create account</a>
+        
+      </div>
+    </form>
+
+  <%- include('footer') %>
